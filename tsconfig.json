@@ -1,0 +1,43 @@
+// {
+//   "files": [],
+//   "compilerOptions": {
+//     "lib": ["esnext", "dom"],
+//     "types": ["chrome"],
+//     "target": "ESNext",
+//     "module": "ESNext",
+//     "strict": true,
+//     "esModuleInterop": true,
+//     "skipLibCheck": true,
+//     "composite": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "outDir": "dist", // Ensure this is pointing to the dist folder
+//     "rootDir": "src"  // Your source files are in the src folder
+//   },
+//   "include": ["src/**/*"],
+
+//   "references": [
+//     { "path": "./tsconfig.app.json" },
+//     { "path": "./tsconfig.node.json" }
+//   ]
+// }
+
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "types": ["chrome"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "outDir": "dist", // Ensure this is pointing to the dist folder
+    "rootDir": "src", // Your source files are in the src folder
+    "baseUrl": "./",  // Allows for absolute imports
+    "paths": {
+      "*": ["node_modules/*"] // Maps modules to node_modules
+    },
+    "jsx": "react", // Add this line to enable JSX support
+    "noEmit": true 
+  },
+  "include": ["src/**/*"] // Ensure all your TypeScript files in the src directory are included
+}
