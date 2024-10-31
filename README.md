@@ -54,8 +54,6 @@ there's no need to make actual API calls for generating responses.
 
 questions or if there's anything else I can help you with, feel free to ask.` 
 
-    1. The “Regenerate” button should be non-functional *.*
-
 👉 When the user clicks on the insert button, the generated static text should be inserted properly into the message input field 
 
 ## <a name="quick-start">🤸 Quick Start</a>
@@ -74,33 +72,25 @@ Make sure you have the following installed on your machine:
 
 **Constraints**
 
-- You must use [**WXT Framework**](https://wxt.dev/) for building the extension. This demonstrates that you are capable of learning new frameworks quickly.
+- You must use [**WXT Framework**](https://wxt.dev/) for building the extension. 
 - You must use `React` with `TypeScript`.
 - You must use `Tailwind CSS` for styling.
-- Avoid using any other third-party libraries for UI or icons. In Figma, you can click on an icon and export it as an SVG.
-- Don't do anything extra that is not part of the required task. Instead, if you have some time left, focus on handling any edge cases and improving code quality.
+
 
 
   **Code Quality**
     
-    *There are numerous ways to solve this assignment, and none of them are wrong. We are looking for a candidate who knows which solution is better than the others.*
-    
     **Qualities of good code:**
     
     1. **Readable**
-        - Code is [Organized](https://gourav.io/blog/organize-code) and [Linear](https://gourav.io/blog/linear-code).
-        - Descriptive naming of variables, functions, etc. Follows naming convention.
-        - Comments are added wherever necessary.
+        -
         
     2. **Performant**
         
-        The code should be optimized for performance where necessary, without sacrificing readability.
         
     3. **Failproof**
-        - Consideration of edge cases (Make sure to thoroughly test your code for any subtle bugs).
-        - Error handling.
+    
 
     4. **Extensible**
-        
-        Easy to modify and extend by you and others when needed.
+       
 
